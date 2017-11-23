@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>PROBA FORMULARZA AKA SIUSIAK</title>
+<script>
+function probka(formularz)
+	{
+	var zmienna=formularz.poletekstowe.value;
+	alert("wprowadzono:"+zmienna);
+	}
+</script>
+</head>
+<body>
+<form name="mojformularz" action="" method="get">
+<input type="text" name="poletekstowe" value=""/>
+<input type="button" name="przycisk" value="kliknij" onClick="probka(this.form)"/>
+</form>
+</body>
+</html>
